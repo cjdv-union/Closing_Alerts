@@ -1,0 +1,15 @@
+{
+  "name": "harmonic-deal-tracker",
+  "version": "1.0.0",
+  "description": "Polls Harmonic for newly announced funding rounds and pings Slack",
+  "main": "src/tracker.js",
+  "scripts": {
+    "start": "node src/tracker.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
